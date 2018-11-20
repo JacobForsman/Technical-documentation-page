@@ -43,7 +43,7 @@ main {
     display: flex;
     align-items: column;
     font-family: arial;
-    background-color: lightgrey;
+    background-color: rgb(235, 235, 235);
 }
 
 .nav-link:hover {
@@ -56,7 +56,7 @@ main {
 }
 
 #blue {
-    border-left: 6px solid blue;
+    border-left: 6px solid rgb(93, 93, 255);
 }
 
 #snapchat-logo {
