@@ -5,13 +5,16 @@ body {
 header {
     font-size: 2em;
     font-weight: bold;
+    font-family: arial;
 }
 
 main {
     margin-left: 20%;
 }
 
-.sidebar {
+
+
+#navbar {
     height: 100%;
     width: 200px;
     background-color: #fefe00;
@@ -33,22 +36,32 @@ a {
     font-family: arial;
 }
 
+p {
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+li {
+    font-family: helvetica;
+    font-size: 16px;
+}
+
 #snapchat-logo {
-    margin-top: 350px;
+    margin-top: 320px;
     width: 200px;
 }
 
 a:hover{
-    background: rgba(255, 255, 255, 0.5);
+    background: rgb(255, 255, 255, 0.7);
 }
 
 #snapchat {
 }
-#history {
+#historia {
 }
-#installing_snapchat {
+#installera_snapchat {
 }
-#using_snapchat {
+#användning_av_snapchat {
 }
-#reference {
+#källor {
 }
