@@ -6,6 +6,7 @@ header {
     font-size: 2em;
     font-weight: bold;
     font-family: arial;
+    padding-top: 50px;
 }
 
 main {
@@ -39,11 +40,13 @@ a {
 p {
     font-family: helvetica;
     font-size: 18px;
+    text-align: justify;
 }
 
 li {
     font-family: helvetica;
     font-size: 16px;
+    margin-top: 10px;
 }
 
 #snapchat-logo {
