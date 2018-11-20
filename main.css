@@ -1,24 +1,54 @@
+body {
+    background-color: #f0f0f0;
+}
+
 header {
     font-size: 2em;
     font-weight: bold;
 }
 
+main {
+    margin-left: 20%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fefe00;
+    position: fixed;
+    margin-left: -8px;
+    margin-top: -8px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    font-size: 21px;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    padding: 3px;
+    display: flex;
+    align-items: column;
+    font-family: arial;
+}
+
+#snapchat-logo {
+    margin-top: 350px;
+    width: 200px;
+}
+
+a:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
 #snapchat {
-
 }
-
 #history {
-
 }
-
 #installing_snapchat {
-
 }
-
 #using_snapchat {
-
 }
-
-#bac {
-
+#reference {
 }
