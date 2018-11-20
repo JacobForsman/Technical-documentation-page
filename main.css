@@ -1,3 +1,5 @@
+/** BODY BACKGROUND, HEADERS, ETC. **/
+
 body {
     background-color: #f0f0f0;
 }
@@ -10,10 +12,14 @@ header {
 }
 
 main {
-    margin-left: 20%;
+    margin-left: 300px;
 }
 
+.disabled-header {
+    display: none;
+}
 
+/** NAVBAR **/
 
 #navbar {
     height: 100%;
@@ -26,21 +32,65 @@ main {
     padding-right: 30px;
 }
 
-a {
+.nav-link{
     font-size: 21px;
-    margin-top: 20px;
+    position: relative;
+    top: 50px;
+    margin-top: 15px;
     color: #000;
     text-decoration: none;
     padding: 3px;
     display: flex;
     align-items: column;
     font-family: arial;
+    background-color: lightgrey;
 }
 
+.nav-link:hover {
+    background-color: grey;
+    color: rgb(233, 233, 233);
+}
+
+#red {
+    border-left: 6px solid red;
+}
+
+#blue {
+    border-left: 6px solid blue;
+}
+
+#snapchat-logo {
+    margin-top: 320px;
+    width: 200px;
+}
+
+/** MEDIA **/
+
+@media screen and (max-width: 1300px) {
+    #navbar {
+        position: relative;
+        top: -8px;
+        width: 100%;
+        height: 275px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #snapchat-logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    main {
+        margin-left: 40px;
+    }
+}
+
+/** TEXT/CONTENT **/
 p {
     font-family: helvetica;
     font-size: 18px;
-    text-align: justify;
 }
 
 li {
@@ -49,22 +99,20 @@ li {
     margin-top: 10px;
 }
 
-#snapchat-logo {
-    margin-top: 320px;
-    width: 200px;
+#footer {
+    text-decoration: none;
+    font-family: arial;
+    color: black;
 }
 
-a:hover{
-    background: rgb(255, 255, 255, 0.7);
-}
 
-#snapchat {
-}
-#historia {
-}
-#installera_snapchat {
-}
-#användning_av_snapchat {
-}
-#källor {
-}
+
+#snapchat {}
+
+#historia {}
+
+#installera_snapchat {}
+
+#användning_av_snapchat {}
+
+#källor {}
